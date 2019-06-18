@@ -1,0 +1,13 @@
+{
+  "name": "stackoverflow-56643186",
+  "dependencies": {
+    "grunt-contrib-uglify": "^4.0.1",
+    "grunt": "^1.0.4"
+  },
+  "scripts": {
+    "start": "node dist/app.min.js",
+    "broken": "grunt broken && npm start",
+    "working": "grunt working && npm start"
+  },
+  "license": "MIT"
+}
