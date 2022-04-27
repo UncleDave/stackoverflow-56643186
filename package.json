@@ -2,7 +2,7 @@
   "name": "stackoverflow-56643186",
   "dependencies": {
     "grunt-contrib-uglify": "^4.0.1",
-    "grunt": "^1.0.4"
+    "grunt": "^1.5.2"
   },
   "scripts": {
     "start": "node dist/app.min.js",
